@@ -1,0 +1,89 @@
+:root{
+  --color-text: #696969;
+}
+.main-title{
+  color: #53575a;
+}
+
+.content-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card-item{
+  display: flex;
+  padding: 1rem;
+  width: 30%;
+}
+.card{
+  margin: 1rem;
+  background-color: white;
+  border-radius: .25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+}
+.card-conent{
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: .6rem;
+}
+
+.card-img{
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.card-title{
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.card-info{
+  flex: 1 1 auto;
+  font-size: 0.874rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+.btn-blog{
+  background: #fafdff;
+  border: 1px solid #cccccc;
+  color: var(--color-text);
+  padding: .5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.btn-blog:hover{
+  background: #33333324;
+}
+.card-footer{
+  border-top: 2px solid #9887877a;
+}
+.card-cread{
+  display: flex;
+  align-items: center;
+  margin-top: .5rem;
+}
+.card-avatar{
+  width: 2rem;
+  height: 2rem;
+}
+.card-name{
+  margin-left: .5rem;
+  text-decoration: none;
+  color: #30383e;
+}
+.card-name:hover{
+  color: black;
+  text-decoration: underline;
+}
+.card-data{
+  margin: 0;
+  margin-left: 4rem;
+}
