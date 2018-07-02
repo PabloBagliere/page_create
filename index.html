@@ -20,12 +20,16 @@
     <link rel="stylesheet" href="css/skills.css">
     <!-- Estilos del footer -->
     <link rel="stylesheet" href="css/footer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/locale/es.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
 </head>
 <body>
     <header class="main-header center">
             <div class="logo-header">
-                <a href="#"><img class="logo" src="img/logo.svg" alt=""></a>
+                <a href="#"><img class="logo" src="img/logo.png" alt=""></a>
             </div>
             <nav class="naver">
                 <ul class="list menu">
@@ -53,162 +57,13 @@
                 <a href="#" class="btn btn-sub">Suscribete</a>
             </div>
         </div>
-        <div class="content-blog center" id="blog">
+        <div class="content-blog center">
             <div class="main-blog center-container">
                 <h2 class="main-title titles">Blog</h2>
                 <p class="subtitle">Ultimos post del blog</p>
             </div>
-            <div class="content-card">
-                <div class="card-item">
-                    <div class="card">
-                        <div>
-                            <a href="#">
-                                <img src="https://picsum.photos/800/600?image=19" class="card-img">
-                            </a>
-                        </div>
-                        <div class="card-conent">
-                            <a href="#" class="card-title">Titulo de prueba</a>
-                            <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Ea optio illum adipisci. Odit saepe quia quibusdam repellendus, nemo sed amet
-                            ratione fugit cupiditate neque possimus odio vero libero quis quisquam!</p>
-                            <a href="#" class="btn btn-blog">Seguir leyendo...</a>
-                            <footer class="card-footer">
-                                <div class="card-cread">
-                                    <a href="#">
-                                        <img src="img/avatar.png" class="card-avatar" alt="avatar">
-                                    </a>
-                                    <a href="#" class="card-name">
-                                        Nombre Prueba
-                                    </a>
-                                    <p class="card-data">24 abril 2018</p>
-                                </div>
-                            </footer>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <div class="card">
-                        <div>
-                            <a href="#">
-                                <img src="https://picsum.photos/800/600?image=27" class="card-img">
-                            </a>
-                        </div>
-                        <div class="card-conent">
-                            <a href="#" class="card-title">Titulo de prueba</a>
-                            <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Ea optio illum adipisci. Odit saepe quia quibusdam repellendus, nemo sed amet
-                            ratione fugit cupiditate neque possimus odio vero libero quis quisquam!</p>
-                            <a href="#" class="btn btn-blog">Seguir leyendo...</a>
-                            <footer class="card-footer">
-                                <div class="card-cread">
-                                    <a href="#">
-                                        <img src="img/avatar.png" class="card-avatar" alt="avatar">
-                                    </a>
-                                    <a href="#" class="card-name">Nombre Prueba</a>
-                                    <p class="card-data">24 abril 2018</p>
-                                </div>
-                            </footer>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <div class="card">
-                        <div>
-                        <a href="#">
-                            <img src="https://picsum.photos/800/600?image=32" class="card-img">
-                        </a>
-                    </div>
-                    <div class="card-conent">
-                        <a href="#" class="card-title">Titulo de prueba</a>
-                        <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ea optio illum adipisci. Odit saepe quia quibusdam repellendus, nemo sed amet
-                        ratione fugit cupiditate neque possimus odio vero libero quis quisquam!</p>
-                        <a href="#" class="btn btn-blog">Seguir leyendo...</a>
-                        <footer class="card-footer">
-                            <div class="card-cread">
-                                    <a href="#">
-                                        <img src="img/avatar.png" class="card-avatar" alt="avatar">
-                                    </a>
-                                <a href="#" class="card-name">Nombre Prueba</a>
-                                <p class="card-data">24 abril 2018</p>
-                            </div>
-                        </footer>
-                    </div>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <div class="card">
-                        <div>
-                            <a href="#">
-                                <img src="https://picsum.photos/800/600?image=43" class="card-img">
-                            </a>
-                        </div>
-                        <div class="card-conent">
-                            <a href="#" class="card-title">Titulo de prueba</a>
-                            <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Ea optio illum adipisci. Odit saepe quia quibusdam repellendus, nemo sed amet
-                            ratione fugit cupiditate neque possimus odio vero libero quis quisquam!</p>
-                            <a href="#" class="btn btn-blog">Seguir leyendo...</a>
-                            <footer class="card-footer">
-                                <div class="card-cread">
-                                    <a href="#">
-                                        <img src="img/avatar.png" class="card-avatar" alt="avatar">
-                                    </a>
-                                    <a href="#" class="card-name">Nombre Prueba</a>
-                                    <p class="card-data">24 abril 2018</p>
-                                </div>
-                            </footer>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <div class="card">
-                        <div>
-                            <a href="#">
-                                <img src="https://picsum.photos/800/600?image=58" class="card-img">
-                            </a>
-                        </div>
-                        <div class="card-conent">
-                            <a href="#" class="card-title">Titulo de prueba</a>
-                            <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Ea optio illum adipisci. Odit saepe quia quibusdam repellendus, nemo sed amet
-                            ratione fugit cupiditate neque possimus odio vero libero quis quisquam!</p>
-                            <a href="#" class="btn btn-blog">Seguir leyendo...</a>
-                            <footer class="card-footer">
-                                <div class="card-cread">
-                                    <a href="#">
-                                        <img src="img/avatar.png" class="card-avatar" alt="avatar">
-                                    </a>
-                                    <a href="#" class="card-name">Nombre Prueba</a>
-                                    <p class="card-data">24 abril 2018</p>
-                                </div>
-                            </footer>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <div class="card">
-                        <div>
-                            <a href="#"><img src="https://picsum.photos/800/600?image=64" class="card-img"></a>
-                        </div>
-                        <div class="card-conent">
-                            <a href="#" class="card-title">Titulo de prueba</a>
-                            <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Ea optio illum adipisci. Odit saepe quia quibusdam repellendus, nemo sed amet
-                            ratione fugit cupiditate neque possimus odio vero libero quis quisquam!</p>
-                            <a href="#" class="btn btn-blog">Seguir leyendo...</a>
-                            <footer class="card-footer">
-                                <div class="card-cread">
-                                    <a href="#">
-                                        <img src="img/avatar.png" class="card-avatar" alt="avatar">
-                                    </a>
-                                    <a href="#" class="card-name">Nombre Prueba</a>
-                                    <p class="card-data">24 abril 2018</p>
-                                </div>
-                            </footer>
-                        </div>
-                </div>
-                </div>
+            <div class="content-card" id="blog">
+                
             </div>
         </div>
     <div class="content-skills center" id="skills">
