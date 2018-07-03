@@ -3,6 +3,7 @@
 }
 .center{
   padding: 0 17%;
+  font-family: 'Roboto', sans-serif;
 }
 .content{
   padding-top: 3rem;
@@ -20,6 +21,7 @@
 }
 .titles, .subtitle{
   margin: .1rem 0;
+  font-family: 'Montserrat', sans-serif;
 
 }
 .titles{

@@ -68,6 +68,7 @@
 .card-cread{
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-top: .5rem;
 }
 .card-avatar{
@@ -85,5 +86,8 @@
 }
 .card-data{
   margin: 0;
-  margin-left: 4rem;
+}
+.information{
+  display: flex;
+  align-items: center;
 }

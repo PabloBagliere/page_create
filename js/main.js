@@ -64,10 +64,12 @@ window.addEventListener("load", () =>{
           <a href="#" class="btn btn-blog">Seguir leyendo...</a>
           <footer class="card-footer">
             <div class="card-cread">
-              <a href="#">
-                <img src="${item.avatar}" class="card-avatar" alt="avatar">
-              </a>
-              <a href="#" class="card-name">${item.name}</a>
+              <div class="information">
+                <a href="#">
+                  <img src="${item.avatar}" class="card-avatar" alt="avatar">
+                </a>
+                <a href="#" class="card-name">${item.name}</a>
+              </div>
               <p class="card-data">${item.data}</p>
             </div>
           </footer>
@@ -75,7 +77,7 @@ window.addEventListener("load", () =>{
       </div>
     </div>
     `;
-    $("#blog").append(posting);
+    $("#blogs").append(posting);
   });
 })
 
